@@ -23,6 +23,6 @@ function calculateResult() {
     })
     .catch(error => {
         console.error('Error:', error);
-        document.getElementById('expression').value = 'Error';
+        document.getElementById('expression').value = 'Syntax Error';
     });
 }
